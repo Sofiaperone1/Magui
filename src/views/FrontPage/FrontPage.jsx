@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import portada from "../../Imgs/portada.jpg"
 import logo from "../../Imgs/logo.png"
 import "./FrontPage.css"
 
