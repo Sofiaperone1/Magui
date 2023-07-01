@@ -1,0 +1,19 @@
+
+.portafolioCC {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portafolioCard {
+    width: 20%;
+    margin: 2%;
+}
+
+.portafolioCard img{
+    width: 100%;
+}
+
+.Portafolio h1 {
+    text-align: center};

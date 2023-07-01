@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+
+import React from "react"
+import { useLocation ,Routes, Route} from "react-router-dom";
 import './App.css';
+import FrontPage from './views/FrontPage/FrontPage';
+import Portafolio from "./views/Portafolio/Portafolio";
+import Contacto from "./views/Contacto/Contacto";
+import Tienda from "./views/Tienda/Tienda";
+import Taller from "./views/Taller/Taller";
+import OtrosLinks from "./views/OtrosLinks/OtrosLInks";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./views/Home/Home";
 
 function App() {
+  const location = useLocation();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div>
+    {location.pathname !== "/" && <Navbar/>}
+      <Routes>
+
+       <Route exact path="/" element={<FrontPage/>} />
+       <Route exact path="/Home" element={<Home/>} />
+       <Route exact path="/Portafolio" element={<Portafolio/>} />
+       <Route exact path="/Contacto" element={<Contacto/>}/>
+       <Route exact path="/Tienda" element={<Tienda/>}/>
+       <Route exact path="/Taller" element={<Taller/>}/>
+       <Route exact path="/OtrosLinks" element={<OtrosLinks/>}/>
+
+      </Routes>
+      
+</div>
+       
+  
   );
 }
 
