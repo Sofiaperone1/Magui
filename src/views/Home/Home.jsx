@@ -1,7 +1,5 @@
 import React from 'react'
 import "./Home.css"
-import banner2 from "../../Imgs/banner2.jpg"
-
 import { Link } from 'react-router-dom'
 import QuienSoy from '../../components/Home/QuienSoy'
 
