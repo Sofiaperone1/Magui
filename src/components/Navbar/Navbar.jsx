@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '../../Imgs/logo.png'
+import LogoMagu from '../../Imgs/LogoMagu.png'
 import {NavLink } from 'react-router-dom';
 
 
@@ -13,23 +13,29 @@ return (
 
   <div className='nbAtencion'><p>Envios a todo el pais - Productos 100% exclusivos</p></div>
 
-  <img src={logo} alt="logo" />
+ <img src={LogoMagu} alt="logo" />
 
-  <ul className='navbarLinks'>
+ <div className='navLinks'>
 
-      <li><NavLink to="/Home"> HOME </NavLink> </li>
+  
+ <NavLink to="/Home"> INICIO </NavLink> 
 
-      <li> <NavLink to="/Portafolio"> PORTAFOLIO</NavLink> </li>
+<NavLink to="/Tienda"> TIENDA  </NavLink>
 
-      <li > <NavLink to="/Contacto">CONTACTAME</NavLink></li>
+<NavLink to="/Otros"> DISEÑO DE ESTAMPAS </NavLink>
 
-      <li><NavLink to="/Tienda"> TIENDA ONLINE </NavLink></li>
+<NavLink to="/Portafolio"> PORTFOLIO</NavLink> 
 
-      <li> <NavLink to="/Talleres">TALLER DE PINTURA</NavLink></li>
+<NavLink to="/Talleres">TALLER </NavLink>
 
-      <li> <NavLink to="/Otros"> OTROS LINKS </NavLink></li>
+<NavLink to="/Acerca">ACERCA DE MI </NavLink>
 
-  </ul>
+<NavLink to="/Contacto">CONTACTAME</NavLink>
+
+
+ </div>
+  
+
 
   </div>
   )

@@ -1,31 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Pathway+Gothic+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 .frontPage{
    background-image:url('../../Imgs/fondoPortada4.jpg');
    height: 100vh;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
 }
-
 .frontPageCont {
     background-color: white;
-    width: 80%;
-    height: 80%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-
-.frontPageCont img {
-    width: 30%;
-}
-
-.menuFP ul { width: 100%;}
-
-.menuFP ul li{
-    list-style: none;
-    margin-bottom: 3%;
+    padding: 3% 5% 3% 5%;
     
 }
+
+.menuFP {
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuFP a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+   
+
+}
+
+.menuFP button {
+    height: 44px;
+    width: 87%;
+    border-radius: 24px;
+    background-color: white;
+    color: black;
+    margin-bottom: 2%;
+    font-size: 22px;
+    font-family: 'Nanum Myeongjo', serif;
+    background-color:#ffc99f;
+    border: transparent;
+}
+
+.menuFP button:hover {
+    background-color:#eea66f;
+}
+
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome p {
+    font-family: 'DM Serif Display', serif;
+    font-size: 55px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1%;
+}
+
+
 
 .menuFP ul li button {
     background-color: #f4c4ac;

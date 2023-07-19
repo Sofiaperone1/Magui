@@ -1,41 +1,46 @@
 .navbar {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+   
+    background-image: url("../../Imgs/fondoPortada4.jpg");
   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  align-items: center;
+
 }
 
 .navbar img {
-    width: 13%;
+    width: 15%;
     align-self: center;
+    margin: 2% 0% 1% 2%;
+
+    
 }
-
-.navbarLinks {
-    align-self: center;
-    margin-top: 0;
-    display: flex;
-    width: 95%;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    height: 8vh;
-    border-top: 1px solid rgba(128, 128, 128, 0.712);
-    border-bottom: 1px solid rgba(128, 128, 128, 0.733);
-
+.navLinks {
+    margin-right: 3%;
+    width: 53%;
+    background-color: white;
+  padding: 1% 1% 1% 1%;
+    border-radius: 25px;
+    color: black;
 }
-
-.navbarLinks a {
+.navLinks a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.719);
+    color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 18px;
+    font-family: 'Nanum Myeongjo', serif;
+    
 }
 
-.navbarLinks li {
-    margin: 0 1% 0 1%;
-    font-size: 14px;
+.navLinks a:hover {
+    color: #f10048;
 }
 
 .nbAtencion {
-    font-size: 11px;
+    font-size: 13px;
     background-color:#6e6316;
     width: 100%;
     color: white;
