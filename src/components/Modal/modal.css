@@ -1,0 +1,26 @@
+.ReactModal__Content.ReactModal__Content--after-open{
+    display: flex;
+   justify-content: center;
+    width: 60%;
+    background-color: transparent !important;
+    border: none !important;
+    margin-left: 17% !important;
+
+}
+.ReactModal__Content.ReactModal__Content--after-open img{
+    margin-right: 2%; 
+}
+
+
+.verMas {
+    
+        background-color: orange;
+        display: flex;
+        padding: 1%;
+        margin: 2%;
+        justify-content: center;
+        text-decoration: none;
+        color: white !important;
+        font-family: 'News Cycle', sans-serif;
+        font-size: 20px;
+}

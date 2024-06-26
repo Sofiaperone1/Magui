@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3% 5% 3% 5%;
+    padding: 3%;
     
 }
 
@@ -59,12 +59,15 @@
 
 .welcome p {
     font-family: 'DM Serif Display', serif;
-    font-size: 55px;
+    font-size: 33px;
     text-align: center;
     margin: 0;
     margin-bottom: 1%;
 }
 
+.welcome img {
+    width: 63%;
+}
 
 
 .menuFP ul li button {

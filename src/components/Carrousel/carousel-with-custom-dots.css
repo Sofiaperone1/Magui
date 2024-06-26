@@ -1,0 +1,17 @@
+.custom-dot {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+
+  }
+  
+  .custom-dot img {
+    width: 100%;
+    opacity: 0.7;
+  }
+  .custom-dot--active {
+    border: 1px solid white;
+  }
+
+ 

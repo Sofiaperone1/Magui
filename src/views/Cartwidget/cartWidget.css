@@ -1,0 +1,318 @@
+
+
+/*
+
+
+.cartWidget{ margin-top: 12%; display: flex; flex-direction: column; }
+
+
+*/
+
+.cartWidget {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+}
+#cartWidgetTable{
+    width: 66%;
+    margin-top: 2%;
+    box-shadow:none;
+}
+
+.widgetCont {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top:2%
+}
+
+.cartWidget table {
+    margin-top: 4%;
+    border: 2px solid rgba(7, 7, 7, 0.301);
+    width: 90%;
+    margin-bottom: 5%;
+    width: 100%;
+   
+}
+
+
+.cartWidget table thead tr th {
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    background-color: rgba(139, 139, 139, 0.13);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cartWidget table tbody tr td  {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.cartWidget table tbody tr th {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.deleteBtnForm {
+    width: 24%;
+    height: 24px;
+    background-color: #fe382e;
+    border-radius: 8px;
+    border-color: transparent;
+    color: white;
+    font-size: 17px;
+
+}
+
+.emptyCard p{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* CHECKOUT */ 
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+}
+
+.emptyCard {
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+
+.ticket {
+    border: 1px solid #ffa3ca;
+    padding: 2%;
+    width: 35%;
+    display: flex;
+    margin-left: 3%;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+   border-radius: 3%;
+   margin-bottom: 3%;
+}
+
+#ticketDivider1, #ticketDivider2{
+    border: 1px solid #0000001c;
+    width: 33%;
+}
+
+.ticket hr.MuiDivider-root.MuiDivider-fullWidth.css-9mgopn-MuiDivider-root{
+        align-self: flex-start;
+}
+
+.ticket h3 {
+    margin-bottom: 2%;
+    font-size: 20px;
+    align-self: flex-start;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+  }
+
+.giftOption {
+    margin-top: 3%;
+    font-size: 17px;
+    font-family: 'Arima Madurai', cursive;
+    width: 100%;
+}
+
+
+.giftOption label {
+margin-right: 2%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.giftOption input {
+    height: 50px;
+    border-color: #8080807d;
+    border-radius: 5%;
+}
+
+#go_input{
+    background-color: white;
+    color: #ffa3ca;
+    margin-top: 3%;
+    width: 50%;
+    padding: 1%;
+    font-size: 15px;
+    border: 3px solid #ffa3ca;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    border-radius: 5%;
+}
+
+#go_input:hover{
+    background-color: rgba(216, 112, 147, 0.219);
+    color: #db2c75;
+}
+
+#finalize {
+    width: 50%;
+    padding: 1%;
+    font-size: 17px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    background-color:#ffa3ca;
+    color: white;
+    border:transparent;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    border-radius: 5%;
+
+}
+
+#finalize:hover{
+background-color: #ee583f;
+cursor: pointer;
+}
+
+.giftOption h5 {
+    font-size: 17px;
+    font-weight: 200;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+   padding-top: 1%;
+} 
+
+.orderDetails{
+    margin-top: 6%;
+    margin-bottom: 1%;
+}
+
+.giftOption p {
+    width: 80%;
+    margin-bottom: 5%;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 16px;
+    text-align: left;
+}
+.giftOption div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.giftOption button {
+    padding-left: 0;
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 16px;
+    color: #ffa3ca;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+.giftOption button:hover{
+    color: #ee583f;
+    cursor: pointer;
+}
+
+.credCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.credCards p {
+    margin-right: 2%;
+    font-size: 21px;
+}
+
+.cardInput {
+    border: 2px solid #0000005c;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+    border-radius: 5px;
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardNumber{  
+    width: 95%;
+   }
+
+    .cardNumber div {
+        display: flex;
+        width: 99%;
+    }
+
+.cardNumber p {
+    margin-bottom: 1%;
+}
+
+
+
+.checkout table {
+    margin-top: 4%;
+    border: 1px solid black;
+    width: 90%;
+    margin-bottom: 5%;
+    width: 76%;
+ 
+}
+
+
+
+.checkout table thead { 
+    font-size: 19px;
+    padding: 3px;
+    text-align: center;
+}
+
+.checkout table thead tr th {
+    border: 1px solid black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.checkout table tbody tr td  {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #80808048;
+    font-size: 17px;
+    padding: 3px;
+    text-align: center;   
+}
+ 
+.aclaration {
+    margin-top: 7%;
+    margin-bottom: 1%;
+    text-align: start;
+    color: rgb(73, 73, 73);
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}

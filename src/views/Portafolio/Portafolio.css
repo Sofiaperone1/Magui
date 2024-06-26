@@ -4,16 +4,56 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 3%;
 }
 
 .portafolioCard {
-    width: 20%;
-    margin: 2%;
+    width: 30%;
+    margin: 1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .portafolioCard img{
     width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .Portafolio h1 {
-    text-align: center};
+    text-align: center;
+    font-size: 23px;
+    margin-top: 3%;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.portafolioCats {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.portafolioCats li {
+    margin-right: 2%;
+    padding: 0.6%;
+    background-color: #ee583f;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.portafolioCats li:hover {
+    background-color: #f0a294;
+}
+
+.portafolioCats li button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat';
+
+}

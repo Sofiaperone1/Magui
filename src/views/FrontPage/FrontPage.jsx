@@ -17,15 +17,15 @@ const FrontPage = () => {
          
                     <Link to="/Home"> <button>Home</button></Link>
               
-                    <Link to="/Portafolio"> <button>Portafolio</button></Link>
+                    <Link to="/Portfolio"> <button>Portafolio</button></Link>
            
-                    <Link to="/Contacto"> <button>Contactame</button></Link>
+                    <Link to="/Contact"> <button>Contactame</button></Link>
                
-                    <Link to="/Tienda"> <button>Tienda online</button></Link>
+                    <Link to="/Shop"> <button>Tienda online</button></Link>
               
-                    <Link to="/Taller"> <button>Taller de pintura</button></Link>
+                    <Link to="/Workshops"> <button>Taller de pintura</button></Link>
               
-                    <Link to="/OtrosLinks"><button>Otros links de interes</button></Link>
+                    <Link to="/Others"><button>Otros links de interes</button></Link>
           
         </div>
      </div>

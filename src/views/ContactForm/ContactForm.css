@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.contactView {margin-top:2%;margin-bottom: 20%;}
+
+.contactFormBlock {
+  display: flex;
+  justify-content: center;
+}
+.contactFormBlock h1 {
+ 
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 7%;
+}
+
+.sucursalesList div{margin-top: 7%;margin-bottom: 7%;}
+
+.sucursalesList div h2{
+
+  font-family: 'Arima Madurai', cursive;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+
+
+#submitBtnC {
+  border: 1px solid #c4c35a;
+  width: 59%;
+  background-color: white;
+  margin-top: 2%;
+  color: #abaa4d;
+  font-weight: 600;
+}
+#submitBtnW {
+  width: 59%;
+  background-color:#c4c35a;
+  margin-top: 2%;
+  color: white;
+  font-weight:6700;
+}
+
+
+#fondoForm{  
+  height: 400px; display: flex; justify-content: space-evenly;}
+.formCardDecoration { width: 33%; }
+.formCard { width: 37%; margin-top: 2%;margin-left: 3%;}
+.formCard form div {    width: 100%;}
+#fondoForm li { margin-top: 2%;}
+#fondoForm p {margin-top: 2%; 
+  margin-bottom: 1%;
+  text-align: start;  
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.7rem;}
+#fondoForm h3{    
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+  font-weight: 400;
+  margin-bottom: 2%;
+  }
+.formCardDecoration  img{ margin-top: 4%; align-self: center;}
+#outlined-basic{ width: 84%}
+
+.suscribeDiv {display: flex; flex-direction: row;margin-bottom: 0%; margin-top: 1% ;
+  justify-content: center; align-items: flex-end; }
+
+
+ /* -- WIDGET FORM -------- */
+
+
+
+.formWidget{
+  
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  padding: 2%;
+}
+.formWidget h3 {
+  font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+  margin-bottom: 3%;
+  font-size: 21px;
+}
+
+
+.formWidget p {
+  margin-bottom: 2%;
+}  
+
+.formWidget form p {
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formWidget input { height: 25px;}
+
+.name, .address {
+  display: flex;
+  flex-direction: row;
+}
+
+.formWidget #ic_2 input{
+  background-color: rgba(128, 128, 128, 0.363);
+  width: 100%;
+}
+
+
+.inputCont, .inputCont2 {
+  width: 50%;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.phone , .message{
+  width: 97%;
+  margin-top: 3%;
+} 
+
+.inputCont2 div, .phone div, .message div {
+  width: 100%;
+}
+
+/* MAPS     */
+
+.map-wrap {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 77px);
+}
+
+.map{
+  width: 96vh;
+  margin-left: 9%;
+}

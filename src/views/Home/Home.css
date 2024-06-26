@@ -2,16 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 1%;
-    background-color:#fcf7ee;
+  
 }
 
 .carousel-root {
-    width: 75%;
+    width: 100%;
 }
 
 .carousel.carousel-slider {
-    height: 67vh;
+    max-height: 486px;
    
 }
 
@@ -26,64 +25,189 @@
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    width: 75%;
-  
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 1%;
+    width: 100%;
+    background-size: 40%;
+}
+
+
+.quienSoy img {
+width: 77%;
+border-top-left-radius: 3%;
+border-bottom-left-radius: 3%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 
 .quienSoy div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     flex-direction: column;
-    width: 60%;
-    align-items: flex-start;
-    margin-left: 3%;
+    width: 100%;
+    align-items: flex-end;
+    background-color: white;
+    border: 4px solid #13131312;
+    margin-right: 0.8%;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    padding-right: 1.8%;
+    border-left: transparent;
 }
 
 .quienSoy div h3 {
-    font-size: 40px;
-    margin: 7% 0 2% 0%;
-    font-family: 'DM Serif Display', serif;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: end;
+    margin-right: 5%;
+    font-size: 2.8rem;
+    margin: 4% 0 2% 0%;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #fe382e;
+}
+
+.quienSoy div h3 span{
+font-style: oblique;
 }
 
 .quienSoy div p {
-    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1.4rem;
     width: 90%;
-
+    text-align: end;
     word-spacing: 1px;
     line-height: 34px;
-    font-family: 'Nanum Myeongjo', serif;
+    margin-bottom: 1%;
+    color:black
 
 }
 
 .quienSoy div a, .second a  {
     text-decoration: none;
-    color: black;
+    color: white;
 
 }
 
 .quienSoy div button {
     height: 45px;
-    font-size: 24px;
-    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    background-color: #fe382e;
     padding: 2% 3% 2% 3%;
-    background-color: #c7e9f6;
-    border: none;
-    margin-top: 4%;
+    border: 3px solid white;
+    color: white;
     display: flex;
     align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 10%;
 }
+
+.quienSoy div button:hover{
+    background-color: #aaa94e;
+}
+
+#btn_ayudamos{
+    margin-bottom: 4%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    min-height: 68px;
+}
+/* AYUDAMOS */
+
+.ayudamos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+
+.ayudamos .imgs_to2 {
+    margin-left: 0.8%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ayudamos_l2 {
+    background-color: #ffa3ca;
+    background-size: 100%;
+    margin-left: 0.8%;
+    padding-left: 2%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+.ayudamos_l2 button{
+    background-color: white;
+    padding: 1.4%;
+    border-radius: 6%;
+    border: none;
+    font-size: 19px;
+    margin-top: 3%;
+}
+
+.ayudamos_l2 h3 {
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  border-bottom: 1px solid;
+  padding-bottom: 4%;
+  width: 81%;
+  margin-bottom: 1%;
+} 
+.ayudamos_l2 p {
+    text-align: left;
+    font-size: 25px;
+    width: 70%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    
+}
+
+.ayudamos_l2 button:hover{
+background-color: rgba(255, 255, 255, 0.671);
+color: black;
+}
+
+.ayudamos_l2 button a{
+  text-decoration: none;
+  color: #000000cf;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.imgs_to2 img, .imgs_to1 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
 
 
 /* ---------- CLIENTS AND ABOUT ------------ */
 
 .clientes {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-bottom: 3%;
     width: 75%;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -92,27 +216,33 @@
 
 .clientes .second {
 background-image: url("../../Imgs/espaldaMagui.jpg");
-background-size: contain;
+background-size: cover;
 width: 49%;
 height: 650px;
-border: 8px solid #5c8aa0;
+border: 3px solid #f3ead7;
 display: flex;
 flex-direction: column;
 align-items: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 margin-left: 1%;
+border-radius: 4%;
 }
 
 .second h3{
     font-size: 50px;
-    font-family: 'DM Serif Display', serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     margin-bottom: 1%;
     margin-top: 3%;
-    color: #5c8aa0;
+    color: white;
 }
 .second a  {
     text-decoration: none;
     color: #5c8aa0;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
     font-size: 18px;
 }
 
@@ -120,25 +250,47 @@ margin-left: 1%;
     margin-right: 1%;
     width: 49%;
 height: 650px;
-border: 8px solid #e4939a;
+border: 3px solid #ffa3ca;
 display: flex;
 flex-direction: column;
 align-items: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  border-radius: 3%;
 }
 
 .first h3{
     font-size: 50px;
-    font-family: 'DM Serif Display', serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     margin-bottom: 1%;
     margin-top: 3%;
-    color: #e4939a
+    color: #ffa3ca;
     ;text-align: center;
 }
 
 .first p {
     text-align: center;
-    font-size: 23px;
-    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
     padding: 0 10% 0 10%;
     line-height: 150%;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+/* ADORNO -------------------- */
+
+.adorno_cont{
+height: 160px;
+background-color: black;
+width: 100%;
+background-image: url("../../Imgs/productos/P13.jpg");
+background-attachment: fixed; /* Fija la imagen de fondo */
+margin: 0; /* Elimina los márgenes */
+padding: 0; /* Elimina el padding */
+overflow-x: hidden; /* Elimina el scroll horizontal */
 }
