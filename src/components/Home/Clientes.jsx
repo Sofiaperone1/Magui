@@ -1,5 +1,6 @@
 import React from 'react'
 import "../../views/Home/Home.css"
+import { NavLink } from 'react-router-dom'
 
 const Clientes = () => {
   return (
@@ -12,7 +13,7 @@ const Clientes = () => {
         </div>
         <div className='second'>
 <h3>Acerca de mi</h3>
-<a href="">Encuentra mas informacion aqui</a>
+<NavLink to="/contact" >Encuentra mas informacion aqui</NavLink>
         </div>
     </div>
   )

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ejemplo1 from '../../Imgs/ejemplo1.jpg';
 import "./Portafolio.css";
 import ModalGaleria from "../../components/Modal/modal";
 import P1 from "../../Imgs/portfolio/P1.jpg"

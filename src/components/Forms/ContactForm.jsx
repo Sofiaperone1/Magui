@@ -1,14 +1,12 @@
 import React from 'react'
 import contactForm from "../../Imgs/contact.png";
 import TextField from '@mui/material/TextField';
-import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
 import { Divider } from '@mui/material';
 
 
 const Form = () => {
 
-  const label = { inputProps: { 'aria-label': 'Checkbox demo' } }
 
   return (
     <div id='fondoForm'>

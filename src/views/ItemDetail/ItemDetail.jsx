@@ -1,6 +1,5 @@
 import React, { useState, useContext } from 'react';
 import { useParams, NavLink } from 'react-router-dom';
-import ejemplo1 from "../../Imgs/ejemplo1.jpg";
 import { ItemContext } from "../../components/CartContext/CartContext";
 import Swal from 'sweetalert2'
 import Button from '@mui/material/Button'

@@ -5,18 +5,17 @@ import "./ContactForm.css"
 
 
 const ContactForm  = () => {
- /* const label = { inputProps: { 'aria-label': 'Checkbox demo' } };  */
-  
- 
 
-  return (
-   <div className="contactView">
+  
+return (
+
+<div className="contactView">
  
- <div className="contactFormBlock" >   
+<div className="contactFormBlock" >   
     
-    </div>
-            <Form/>
-   </div>
+</div>
+  <Form/>
+</div>
 
                   
                

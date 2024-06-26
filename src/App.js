@@ -1,6 +1,6 @@
 
 import React from "react"
-import { useLocation ,Routes, Route, BrowserRouter} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import './App.css';
 import Portafolio from "./views/Portafolio/Portafolio";
 import ContactForm from "./views/ContactForm/ContactForm"

@@ -1,7 +1,7 @@
 import React ,{useContext}from 'react'
 import { ItemContext } from "../../components/CartContext/CartContext";
 import './cartWidget.css'
-import { redirect, useNavigate, NavLink } from "react-router-dom"
+import { useNavigate, NavLink } from "react-router-dom"
 import WidgetForm from '../../components/Forms/WidgetForm';
 import Checkbox from '@mui/material/Checkbox';
 import { Divider } from '@mui/material';
@@ -10,21 +10,21 @@ import Button from '@mui/material/Button'
 
 const Checkout = () => {
       
-        const {cart, count, fillOrder, eliminarStock} = useContext(ItemContext)
+        const {cart, count} = useContext(ItemContext)
 
         const [showPassword, setShowPassword] = React.useState(false);
         
-        const handleClickShowPassword = () => setShowPassword((show) => !show);
+      //  const handleClickShowPassword = () => setShowPassword((show) => !show);
         
-        const handleMouseDownPassword = (event) => {
+      /*  const handleMouseDownPassword = (event) => {
           event.preventDefault();
         };
-        
+ */        
         const navigate = useNavigate();
 
-        const goBack = () => {
+  /*      const goBack = () => {
          navigate(-1);
-       };
+       }; */
 
        let totalTicket = count
 

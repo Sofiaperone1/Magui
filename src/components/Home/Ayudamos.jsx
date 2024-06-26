@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ayudamos from "../../Imgs/ayudamos.jpg"
 import c1 from "../../Imgs/c1.jpg"
 import c2 from "../../Imgs/c2.png"
 import hacemos from "../../Imgs/hacemos.jpg"

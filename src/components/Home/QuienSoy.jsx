@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import hacemos from "../../Imgs/hacemos.jpg"
 import ayudamos from "../../Imgs/ayudamos.jpg"
 
 const QuienSoy = () => {

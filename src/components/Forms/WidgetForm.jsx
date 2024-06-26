@@ -1,15 +1,14 @@
-import React, { useState,useContext } from 'react';
+import React, {useContext } from 'react';
 import "../../views/ContactForm/ContactForm.css";
 import TextField from '@mui/material/TextField';
 import { Divider } from '@mui/material';
-import MenuItem from '@mui/material/MenuItem';
-import Select from '@mui/material/Select';
 import { ItemContext } from '../CartContext/CartContext';
 
 const WidgetForm = () => {
   // Estado local para los cambios del formulario
-  const {formChanges,setFormChanges, showForm} = useContext(ItemContext)
-  
+ // const {formChanges,setFormChanges, showForm} = useContext(ItemContext)
+ const {setFormChanges} = useContext(ItemContext)
+
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setFormChanges(prevState => ({
@@ -18,6 +17,7 @@ const WidgetForm = () => {
     }));
   };
 
+  /*
   const handleEnvioChange = (event) => {
     const value = event.target.value;
     setFormChanges(prevState => ({
@@ -25,7 +25,7 @@ const WidgetForm = () => {
       envio: value
     }));
   };
-/* <button onClick={showForm}>show form</button> */
+ <button onClick={showForm}>show form</button> */
 
   return (
     <div className='formWidget'>
