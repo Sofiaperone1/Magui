@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import './cartWidget.css';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -16,11 +16,10 @@ const CartWidget = () => {
   const { cart, setCart, count, setCount } = useContext(ItemContext);
   // const [totalSum, setTotalSum] = useState(0);
 
-  let setTotalSum = "";
-
   useEffect(() => {
-    const sumAll = cart.map(item => item.total).reduce((prev, curr) => prev + curr, 0);
-    setTotalSum = sumAll;
+
+  cart.map(item => item.total).reduce((prev, curr) => prev + curr, 0);
+
   }, [cart]);
 
 
