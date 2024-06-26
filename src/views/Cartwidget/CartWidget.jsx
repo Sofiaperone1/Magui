@@ -14,12 +14,13 @@ import { ItemContext } from '../../components/CartContext/CartContext';
 
 const CartWidget = () => {
   const { cart, setCart, count, setCount } = useContext(ItemContext);
-  const [totalSum, setTotalSum] = useState(0);
+  // const [totalSum, setTotalSum] = useState(0);
+
+  let setTotalSum = "";
 
   useEffect(() => {
     const sumAll = cart.map(item => item.total).reduce((prev, curr) => prev + curr, 0);
-    setTotalSum(sumAll);
-    console.log(totalSum)
+    setTotalSum = sumAll;
   }, [cart]);
 
 

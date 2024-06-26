@@ -1,7 +1,7 @@
 import React ,{useContext}from 'react'
 import { ItemContext } from "../../components/CartContext/CartContext";
 import './cartWidget.css'
-import { useNavigate, NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import WidgetForm from '../../components/Forms/WidgetForm';
 import Checkbox from '@mui/material/Checkbox';
 import { Divider } from '@mui/material';
