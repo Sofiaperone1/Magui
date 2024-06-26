@@ -2,7 +2,7 @@ import React from 'react'
 
 const Estampas = () => {
   return (
-    <div>Estampas</div>
+    <div></div>
   )
 }
 

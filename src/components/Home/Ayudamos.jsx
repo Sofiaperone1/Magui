@@ -15,7 +15,7 @@ const Ayudamos = () => {
         <div className='ayudamos_l2'>
             <h3>How can we help you?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sed reiciendis perspiciatis. Corporis dicta perferendis modi culpa nemo dolorum, illo, deleniti similique officia eaque assumenda exercitationem molestias, laudantium vel atque!</p>
-            <p>Lorem ipsum dolor sit amet . Nesciunt sed reiciendis perspiciatis. Corporis dicta perferendis modi culpa nemo dolorum, illo, deleniti similique officia eaque assumenda exercitationem molestias, laudantium vel atque!</p>
+            <p>Lorem ipsum dolor sit amet . Nesciunt sed reiciendis perspiciatis. Corporis dicta perferendis modi culpa nemo dolorum, illo, deleniti  </p>
             <button > <Link to="/Shop">More information about our workshops</Link></button>
         </div>
         </div>
