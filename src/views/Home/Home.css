@@ -57,7 +57,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 .quienSoy div h3 {
     margin-top: 5%;
     margin-bottom: 0%;
-    text-align: end;
+    text-align:end;
     margin-right: 5%;
     font-size: 2.8rem;
     margin: 4% 0 2% 0%;
@@ -154,7 +154,8 @@ font-style: oblique;
     border-radius: 6%;
     border: none;
     font-size: 19px;
-    margin-top: 3%;
+    margin-top: 1%;
+    margin-bottom: 3%;
 }
 
 .ayudamos_l2 h3 {
