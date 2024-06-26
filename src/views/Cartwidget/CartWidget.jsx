@@ -19,7 +19,9 @@ const CartWidget = () => {
   useEffect(() => {
     const sumAll = cart.map(item => item.total).reduce((prev, curr) => prev + curr, 0);
     setTotalSum(sumAll);
+    console.log(totalSum)
   }, [cart]);
+
 
   const deleteItem = (e) => {
     const selectedProdName = e.target.name;

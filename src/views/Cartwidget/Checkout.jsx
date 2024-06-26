@@ -12,7 +12,7 @@ const Checkout = () => {
       
         const {cart, count} = useContext(ItemContext)
 
-        const [showPassword, setShowPassword] = React.useState(false);
+      //  const [showPassword, setShowPassword] = React.useState(false);
         
       //  const handleClickShowPassword = () => setShowPassword((show) => !show);
         
@@ -20,7 +20,7 @@ const Checkout = () => {
           event.preventDefault();
         };
  */        
-        const navigate = useNavigate();
+  //      const navigate = useNavigate();
 
   /*      const goBack = () => {
          navigate(-1);
