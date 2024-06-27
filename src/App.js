@@ -6,7 +6,7 @@ import Portafolio from "./views/Portafolio/Portafolio";
 import ContactForm from "./views/ContactForm/ContactForm"
 import Tienda from "./views/Tienda/Tienda";
 import Taller from "./views/Taller/Taller";
-import OtrosLinks from "./views/OtrosLinks/OtrosLInks";
+import PrintDesigns from "./views/PrintDesigns/PrintDesigns";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./views/Home/Home";
 import Footer from "./components/Footer/Footer";
@@ -27,7 +27,7 @@ function App() {
        <Route exact path="/Contact" element={<ContactForm/>}/>
        <Route exact path="/Shop" element={<Tienda/>}/>
        <Route exact path="/Workshops" element={<Taller/>}/>
-       <Route exact path="/Others" element={<OtrosLinks/>}/>
+       <Route exact path="/Others" element={<PrintDesigns/>}/>
        <Route path="/products/:name" element={<ItemDetail />} />
        <Route path="/Widget" element={<CartWidget />} />
       <Route path="/checkout" element={<Checkout/>} />

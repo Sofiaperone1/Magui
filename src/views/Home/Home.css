@@ -107,7 +107,7 @@ font-style: oblique;
 }
 
 .quienSoy div button:hover{
-    background-color: #aaa94e;
+    background-color: #d62b22;
 }
 
 #btn_ayudamos{
@@ -189,7 +189,7 @@ color: black;
 
 .ayudamos_l2 button a{
   text-decoration: none;
-  color: #000000cf;
+  color: #000000a6;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;

@@ -1,0 +1,77 @@
+.expcards_container {
+
+    height: 385px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-inline: auto;
+    background-color: white;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.background {
+    width: 100%;
+    height: 100%; /* Ensure the background image covers the full card height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 11px; /* Match the border-radius of the card */
+    transition: transform 0.5s ease; /* Smooth transition for the image scaling */
+}
+
+.card {
+    background-color: blue;
+    min-width: 70px;
+    height: 100%;
+    border-radius: 11px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    position: relative;
+    overflow: hidden; /* Ensure content does not overflow */
+    transition: flex-grow 0.5s ease;
+    flex-basis: 0; /* Ensure cards have the same initial size */
+}
+
+.card.active,
+.card:hover {
+    flex-grow: 5;
+}
+
+.card.active .background,
+.card:hover .background {
+    transform: scale(1); /* Reduce the zoom effect */
+}
+
+.card_content {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white; /* Ensure the text is visible */
+    z-index: 1; /* Ensure content is above the image */
+}
+
+.card_content > .title {
+    margin-left: 10px;
+    transform: translateY(100%); /* Changed to transform for better compatibility */
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card:hover .title {
+    opacity: 1;
+    transform: translateY(0); /* Changed to transform for better compatibility */
+}
+
+/* Add these styles */
+.expcards_container:hover .card.active:not(:hover) {
+    flex-grow: 1;
+}
+
+.expcards_container:hover .card.active:not(:hover) .background {
+    transform: scale(1.1); /* Adjust the zoom effect as needed */
+}
+
+.expcards_container:hover .card.active:not(:hover) .title {
+    opacity: 0;
+    transform: translateY(100%);
+}
