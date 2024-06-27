@@ -3,20 +3,11 @@ import Button from '@mui/material/Button'
 import {NavLink } from 'react-router-dom';
 import t1 from "../../Imgs/taller/t1.jpeg"
 import t2 from "../../Imgs/taller/t2.jpeg"
-import t3 from "../../Imgs/taller/t3.jpeg"
 import t4 from "../../Imgs/taller/t4.jpeg"
 import T5 from "../../Imgs/taller/T5.jpeg"
 import T6 from "../../Imgs/taller/T6.jpeg"
 import T7 from "../../Imgs/taller/T7.jpeg"
-import T8 from "../../Imgs/taller/T8.jpeg"
-import T9 from "../../Imgs/taller/T9.jpeg"
-import T9_2 from "../../Imgs/taller/T9_2.jpeg"
-import T10 from "../../Imgs/taller/T10.jpeg"
-import T10_2 from "../../Imgs/taller/T10_2.jpeg"
-import T11 from "../../Imgs/taller/T11.jpeg"
-import T12 from "../../Imgs/taller/T12.jpeg"
 import T12_2 from "../../Imgs/taller/T12_2.jpeg"
-import T13 from "../../Imgs/taller/T13.jpeg"
 import magu_ac from "../../Imgs/taller/magu_ac.jpeg"
 import ExpCards from '../../components/ExpCards/ExpCards';
 
