@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
-import CustomDot from "./CustomDot"
+import CustomDotShop from "./CustomDotShop"
 import { CustomLeftArrow, CustomRightArrow} from "./CustomArrows"; // Importa tus flechas personalizadas
 import 'react-multi-carousel/lib/styles.css'; // Asegúrate de importar los estilos del carrusel
 import CI1 from "../../Imgs/carrouselInicio/CI1.jpg"
@@ -37,7 +37,7 @@ const responsive = {
   }
 };
 
-const DemoCarouselInicio = (props) => (
+const DemoCarouselShop = ({img1, img2}) => (
   <Carousel
   additionalTransfrom={0}
     arrows
@@ -58,36 +58,23 @@ const DemoCarouselInicio = (props) => (
     showDots={true}
     sliderClass=""
     slidesToSlide={1}
-    autoPlay={props.deviceType !== "mobile" ? true : false}
-    autoPlaySpeed={3000}
     keyBoardControl={true}
     customTransition="transform 800ms ease-in-out"
     containerClass="carousel-container"
     swipeable
-    customDot={<CustomDot />} 
-    customLeftArrow={<CustomLeftArrow />} // Flecha izquierda personalizada
-    customRightArrow={<CustomRightArrow />} // Flecha derecha personalizada
+    customDot={<CustomDotShop img1={img1} img2={img2}/>} 
+  
    
   >
     <WithStyles
-      image={CI1}
+    
+      image={img1}
     />
     <WithStyles
-      image={CI2}
+      image={img2}
     />
-    <WithStyles
-      image={CI3}
-    />
-    <WithStyles
-      image={CI4}
-    />
-    <WithStyles
-      image={CI5}
-    />
-    <WithStyles
-      image={CI6}
-    />
+  
   </Carousel>
 );
 
-export default DemoCarouselInicio;
+export default DemoCarouselShop;

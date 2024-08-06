@@ -1,17 +1,21 @@
 .custom-dot {
-    background: transparent;
     border: none;
     cursor: pointer;
-    width: 5%;
-
+    width: 10%;
+    background-color: #000000a1;
+    /* padding: 0%; */
+    padding-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
   }
   
   .custom-dot img {
-    width: 100%;
+    width: 100% !important;
     opacity: 0.7;
   }
   .custom-dot--active {
     border: 1px solid white;
+
   }
 
  

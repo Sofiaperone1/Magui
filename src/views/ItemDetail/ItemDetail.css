@@ -7,7 +7,7 @@ flex-wrap: wrap;
 
 .detailImgs {
     width: 68%;
-    margin-left: 1.7%;
+    padding-left: 10%;
     display: flex;
 }
 
@@ -25,10 +25,10 @@ align-items: flex-start;
 .counter {
     display: flex;
     list-style: none;
-    width: 42%;
+    width: 35%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 18%;
+    margin-top: 17%;
     margin-bottom: 12%;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -117,7 +117,7 @@ cursor: pointer;
 
 .cb_dc {
         margin-left: 1% !important;
-        margin-bottom: 1% !important;
+        margin-bottom: 3% !important;
         width: 100%;
         display: flex;
         justify-content: flex-start !important;
@@ -137,6 +137,7 @@ cursor: pointer;
 }
 
 .detailFacts h2 {
+    margin-top: 0;
     font-size: 28px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;

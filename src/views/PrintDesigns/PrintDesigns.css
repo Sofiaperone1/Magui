@@ -14,6 +14,23 @@
     margin-bottom: 5%;
 }
 
+.print_div .text {
+    width: 60%;
+}
+
+.print_div .text span {
+    border: 2px solid #fe382e;
+    padding: 1%;
+    border-radius: 50%;
+    width: 19px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1%;
+}
+.print_div .text p {
+    text-align: start;
+}
+
 .print_cont h1 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
